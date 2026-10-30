@@ -8,7 +8,7 @@ I build resilient, fault-tolerant backend pipelines and end-to-end test automati
 ### 🛠 Tech Stack & Tools
 
 **Workflow & API Orchestration**  
-`Make.com` `REST APIs` `Webhooks` `Postman` `JSON Schema Validation` `OpenAI / Gemini APIs`
+ `REST APIs` `Webhooks` `Postman` `JSON Schema Validation` `OpenAI / Gemini APIs`
 
 **Test Automation & Core Languages**  
 `Playwright` `JavaScript` `Java` `Selenium WebDriver` `Cucumber (BDD)` `TestNG`
