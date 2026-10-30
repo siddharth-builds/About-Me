@@ -20,9 +20,6 @@ I build resilient, fault-tolerant backend pipelines and end-to-end test automati
 
 ### 🚀 Featured Systems & Architectures
 
-* **[make-resilient-blueprints](https://github.com/siddharth-builds/make-resilient-blueprints)**  
-  Production-grade Make.com pipeline architectures featuring webhook handshake handoffs, LLM schema parsing, and automatic exponential backoff error-handling branches.
-
 * **[Playwright-api-testing-JS](https://github.com/siddharth-builds/Playwright-api-testing-JS)**  
   Automated REST API testing suite using Playwright & JavaScript for validating server response contracts, authentication flows, and dynamic JSON schemas.
 
