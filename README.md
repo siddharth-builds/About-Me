@@ -1,43 +1,84 @@
-# Hi there, I'm Siddharth Kothule 👋
-### Backend Automation Engineer & QA Automation Specialist
+# Hi, I'm Siddharth Kothule 👋
 
-I build resilient, fault-tolerant backend pipelines and end-to-end test automation frameworks. By combining software QA discipline—strict schema validation, assertion testing, and custom error-handling—with modern workflow orchestration, I design automations that survive edge cases, API schema shifts, and network retries without silent data loss.
+### QA Automation Engineer | SDET
 
----
+I design and build automated tests for web applications, APIs, and integrated services. My focus is on making quality checks **clear, maintainable, and useful to the people developing and operating software**—from validating an individual API response to exercising an end-to-end customer journey.
 
-### 🛠 Tech Stack & Tools
+My GitHub projects demonstrate hands-on work with **Playwright using JavaScript and TypeScript**, **Java with Selenium WebDriver, Cucumber, and TestNG**, **Postman API collections**, and **GitHub Actions CI**. I use patterns such as Page Object Model, reusable fixtures, and shared assertions to keep test code organized and easier to extend.
 
-**Workflow & API Orchestration**  
- `REST APIs` `Webhooks` `Postman` `JSON Schema Validation` `OpenAI / Gemini APIs`
-
-**Test Automation & Core Languages**  
-`Playwright` `JavaScript` `Java` `Selenium WebDriver` `Cucumber (BDD)` `TestNG`
-
-**DevOps & Infrastructure**  
-`Git` `GitHub Actions` `CI/CD Integration` `Google Cloud / Workspace APIs`
+> I’m interested in QA Automation and SDET opportunities where I can help teams build dependable test coverage and shorten feedback cycles.
 
 ---
 
-### 🚀 Featured Systems & Architectures
+## What I work on
 
-* **[Playwright-api-testing-JS](https://github.com/siddharth-builds/Playwright-api-testing-JS)**  
-  Automated REST API testing suite using Playwright & JavaScript for validating server response contracts, authentication flows, and dynamic JSON schemas.
+- **Web UI and end-to-end automation:** validating user journeys, page behavior, and application workflows.
+- **API testing:** checking HTTP responses, CRUD behavior, payloads, and response fields.
+- **BDD and test design:** expressing scenarios in Gherkin and organizing automation with reusable page objects and helpers.
+- **CI test execution:** running automated checks with GitHub Actions and reviewing test reports and artifacts.
+- **Data privacy tooling:** exploring client-side handling and obfuscation of sensitive CSV data.
 
-* **[Cucumber-Framework-Saucedemo](https://github.com/siddharth-builds/Cucumber-Framework-Saucedemo)**  
-  BDD-driven UI automation framework built with Java, Selenium WebDriver, TestNG, and Cucumber for cross-browser e-commerce workflows.
+## Tools and technologies
 
-* **[OrangeHRM-Playwright-JS](https://github.com/siddharth-builds/OrangeHRM-Playwright-JS)**  
-  End-to-end web testing suite using Playwright and JavaScript structured around the Page Object Model (POM) design pattern.
+| Area | Technologies and practices |
+| --- | --- |
+| UI and E2E testing | Playwright, Selenium WebDriver, Page Object Model |
+| API testing | Playwright API testing, Postman, REST, response assertions |
+| Languages | JavaScript, TypeScript, Java |
+| Test frameworks | Playwright Test, Cucumber (BDD), TestNG |
+| CI and collaboration | Git, GitHub Actions |
+| Other project tools | Docker, Kubernetes/Kind, PapaParse |
 
 ---
 
-### ⚡ Engineering Focus
-* **Resilient Architecture:** Dead-letter queues, automated break/retry loops, and zero-data-loss pipeline design.
-* **Contract & Schema Testing:** Automated API assertions against incoming payloads to catch breaking upstream shifts.
-* **Test Design:** Modular Page Object Model (POM), data-driven testing, and continuous test execution in CI/CD.
+## Featured projects
+
+### [CymbalShop E2E Test Suite](https://github.com/siddharth-builds/CymbalShop-E2E-TestSuite)
+A Playwright and TypeScript suite for testing an e-commerce application across UI journeys and API behavior. The project explores end-to-end checkout, cart and session behavior, pricing checks, and automated execution in a containerized Kubernetes/Kind environment with GitHub Actions.
+
+**Focus:** Playwright · TypeScript · UI and API tests · Docker · Kubernetes/Kind · CI
+
+### [Playwright API Testing — JavaScript](https://github.com/siddharth-builds/Playwright-api-testing-JS)
+A JavaScript API test project using Playwright Test against ReqRes. The suite exercises GET, POST, PUT, and DELETE endpoints, checks response statuses and JSON fields, and is configured to run across Chromium, Firefox, and WebKit projects. It also includes a reusable API fixture, shared assertions, and a Postman collection.
+
+**Focus:** Playwright Test · JavaScript · REST API · CRUD · Postman · GitHub Actions
+
+### [Cucumber Framework — SauceDemo](https://github.com/siddharth-builds/Cucumber-Framework-Saucedemo)
+A BDD-style UI automation framework for SauceDemo, built with Java, Selenium WebDriver, Cucumber, and TestNG. Gherkin scenarios cover login validation, cart interactions, and checkout; page classes and Cucumber hooks keep UI behavior and browser setup organized.
+
+**Focus:** Java · Selenium WebDriver · Cucumber · Gherkin · TestNG · Maven
+
+### [OrangeHRM Playwright — JavaScript](https://github.com/siddharth-builds/OrangeHRM-Playwright-JS)
+A Playwright end-to-end test suite for OrangeHRM, organized around the Page Object Model. The project explores browser-based workflow automation and Playwright execution and debugging features.
+
+**Focus:** Playwright · JavaScript · E2E testing · Page Object Model
+
+### [API & Webhook Test Suites](https://github.com/siddharth-builds/API-Webhook-Test-Suites)
+A collection of Postman and Chai.js checks for webhook responses. The tests focus on response status, response time, JSON object shape, and expected response fields and values.
+
+**Focus:** Postman · Chai.js · Webhooks · API contract checks
+
+### [Zero-Trust CSV Scrubber](https://github.com/siddharth-builds/zero-trust-csv-scrubber)
+A client-side CSV utility focused on obfuscating sensitive fields locally before data is sent elsewhere, using PapaParse for CSV handling.
+
+**Focus:** CSV processing · PapaParse · Client-side data privacy
 
 ---
 
-### 📬 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddharth-kothule-021a5a200/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](siddharthkothule@gmail.com)
+## How I approach automation
+
+- **Test behavior that matters:** connect assertions to user workflows and API contracts rather than checking only that a page loads.
+- **Keep tests maintainable:** separate page interactions, test scenarios, fixtures, and shared assertions where appropriate.
+- **Make failures diagnosable:** use clear expectations and the reports or artifacts provided by the test tooling.
+- **Automate feedback:** use CI workflows to run tests consistently on repository changes.
+- **Be precise about coverage:** document what a suite actually tests and avoid implying unimplemented capabilities.
+
+## Currently exploring
+
+I’m continuing to grow my skills in test architecture, API and integration testing, CI automation, and the practical use of containerized environments in test workflows. My repositories are learning and portfolio projects; each README describes the setup and scope of that individual project.
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/siddharth-kothule-021a5a200/)
+- [Email](mailto:siddharthkothule@gmail.com)
+- [GitHub](https://github.com/siddharth-builds)
