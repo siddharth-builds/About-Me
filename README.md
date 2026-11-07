@@ -1,12 +1,12 @@
 # Hi, I'm Siddharth Kothule 👋
 
-### QA Automation Engineer | SDET
+### QA Automation Engineer | SDET | AI-Assisted Workflows
 
 I design and build automated tests for web applications, APIs, and integrated services. My focus is on making quality checks **clear, maintainable, and useful to the people developing and operating software**—from validating an individual API response to exercising an end-to-end customer journey.
 
-My GitHub projects demonstrate hands-on work with **Playwright using JavaScript and TypeScript**, **Java with Selenium WebDriver, Cucumber, and TestNG**, **Postman API collections**, and **GitHub Actions CI**. I use patterns such as Page Object Model, reusable fixtures, and shared assertions to keep test code organized and easier to extend.
+My GitHub projects demonstrate hands-on work with **Playwright using JavaScript and TypeScript**, **Java with Selenium WebDriver, Cucumber, and TestNG**, **Postman API collections**, and **GitHub Actions CI**. I use patterns such as Page Object Model, reusable fixtures, and shared assertions to keep test code organized and easier to extend. I also work with **AI agents and prompt engineering**, using clear instructions and iterative refinement to support development and problem-solving workflows.
 
-> I’m interested in QA Automation and SDET opportunities where I can help teams build dependable test coverage and shorten feedback cycles.
+> I’m interested in QA Automation and SDET opportunities where I can help teams build dependable test coverage, use AI-assisted workflows thoughtfully, and shorten feedback cycles.
 
 ---
 
@@ -16,6 +16,7 @@ My GitHub projects demonstrate hands-on work with **Playwright using JavaScript 
 - **API testing:** checking HTTP responses, CRUD behavior, payloads, and response fields.
 - **BDD and test design:** expressing scenarios in Gherkin and organizing automation with reusable page objects and helpers.
 - **CI test execution:** running automated checks with GitHub Actions and reviewing test reports and artifacts.
+- **AI agents and prompt engineering:** working with agents, shaping prompts and instructions for specific tasks, and refining outputs through review and iteration.
 - **Data privacy tooling:** exploring client-side handling and obfuscation of sensitive CSV data.
 
 ## Tools and technologies
@@ -26,6 +27,7 @@ My GitHub projects demonstrate hands-on work with **Playwright using JavaScript 
 | API testing | Playwright API testing, Postman, REST, response assertions |
 | Languages | JavaScript, TypeScript, Java |
 | Test frameworks | Playwright Test, Cucumber (BDD), TestNG |
+| AI-assisted work | AI agents, prompt engineering, task-oriented instructions, iterative review |
 | CI and collaboration | Git, GitHub Actions |
 | Other project tools | Docker, Kubernetes/Kind, PapaParse |
 
@@ -65,17 +67,18 @@ A client-side CSV utility focused on obfuscating sensitive fields locally before
 
 ---
 
-## How I approach automation
+## How I approach automation and AI-assisted work
 
 - **Test behavior that matters:** connect assertions to user workflows and API contracts rather than checking only that a page loads.
 - **Keep tests maintainable:** separate page interactions, test scenarios, fixtures, and shared assertions where appropriate.
 - **Make failures diagnosable:** use clear expectations and the reports or artifacts provided by the test tooling.
 - **Automate feedback:** use CI workflows to run tests consistently on repository changes.
+- **Use agents with clear goals:** provide task context and structured instructions, then review and refine the results rather than treating generated output as automatically correct.
 - **Be precise about coverage:** document what a suite actually tests and avoid implying unimplemented capabilities.
 
 ## Currently exploring
 
-I’m continuing to grow my skills in test architecture, API and integration testing, CI automation, and the practical use of containerized environments in test workflows. My repositories are learning and portfolio projects; each README describes the setup and scope of that individual project.
+I’m continuing to grow my skills in test architecture, API and integration testing, CI automation, and the practical use of containerized environments in test workflows. I’m also developing my approach to prompt engineering and agent-assisted work—especially how to define tasks clearly, evaluate outputs, and apply them responsibly. My repositories are learning and portfolio projects; each README describes the setup and scope of that individual project.
 
 ## Connect
 
